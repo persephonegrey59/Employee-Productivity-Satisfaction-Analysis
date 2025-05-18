@@ -19,6 +19,26 @@ This project explores whether employee characteristics—such as gender, departm
 - Jupyter Notebook
 - GitHub
 
+## Reproducing This Analysis
+To replicate this project:
+1. Clone the repository:
+>  git clone https://github.com/persephonegrey59/INST414-Employee-Productivity.git
+>  cd INST414-Employee-Productivity
+2. Open the Jupyter notebook:
+>  jupyter notebook INST414Sprint3.ipynb
+3. Run all cells in order. The notebook will:
+- Load the original dataset
+- Calculate tenure from joining date
+- Clean and encode variables
+- Run two OLS regressions
+- Print results for both productivity and satisfaction models
+
+Requirements:
+- Python 3.9+
+- pandas
+- statsmodels
+- Jupyter Notebook
+
 ## Author
 
 Persephone Moran  
